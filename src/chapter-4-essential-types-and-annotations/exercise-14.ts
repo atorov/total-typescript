@@ -14,6 +14,5 @@ function concatName(first: string, last?: string) {
     return `${first} ${last}`;
 }
 
-export const result1 = concatName('John', 'Doe');
-
-export const result2 = concatName('Jane');
+concatName('John', 'Doe');
+concatName('Jane');

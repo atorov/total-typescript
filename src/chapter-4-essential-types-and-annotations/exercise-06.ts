@@ -12,7 +12,7 @@
 //   first: "John",
 // });
 
-function concatName2(user: { first: string; last?: string }) {
+function concatName(user: { first: string; last?: string }) {
     if (!user.last) {
         return user.first;
     }
@@ -20,6 +20,6 @@ function concatName2(user: { first: string; last?: string }) {
     return `${user.first} ${user.last}`;
 }
 
-const result = concatName2({
+concatName({
     first: 'John',
 });
