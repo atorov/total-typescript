@@ -1,1 +1,3 @@
-# total-typescript-essentials
+# Total TypeScript
+
+## Essentials
