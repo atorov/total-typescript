@@ -1,0 +1,7 @@
+{
+    "name": "total-typescript",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@types/node": "^22.9.3"
+    }
+}
